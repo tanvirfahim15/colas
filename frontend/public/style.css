@@ -1,0 +1,199 @@
+body {
+	font-family: 'Kadwa', serif;
+}
+.font-kadwa{
+	font-family: 'Kadwa', serif;
+
+}
+.font-roboto{
+font-family: 'Roboto', sans-serif;
+}
+.hr-nopad {
+	padding: 0px;
+	margin: 0px;
+}
+
+.banner-back {
+	background: rgb(95, 163, 119);
+	background: linear-gradient(90deg, rgba(23,136,82, 1) 0%, rgba(48, 193, 89, 1) 60%, rgba(163, 255, 195, 1) 100%);
+}
+
+.banner-big {
+	font-size: 600%;
+	color: white;
+	font-weight: bold;
+}
+.card-big {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.banner-mid {
+	font-size: 400%;
+	color: white;
+}
+
+.banner-small {
+	font-size: 300%;
+	color: white;
+}
+
+.footer-big {
+	font-size: 150%;
+	color: white;
+}
+
+.footer-back {
+	background: #111;
+}
+
+.bg-myprimary {
+	background: #1056b3;
+}
+.bg-orange {
+	background: #eaab0f;
+}
+
+.sidenav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	top: 57px;
+	background-color: #111;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: left;
+}
+.sidenav a{
+
+    text-decoration: none;
+}
+.sidenav-icon{
+    font-size:130%;
+    padding-right:10px
+}
+
+
+.sidenav-item {
+    font-family: 'Roboto', sans-serif;
+    color:#CCC;
+    font-size:90%;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top: 1px solid #888;
+
+}
+
+.sidenav-item-secondary {
+    font-family: 'Roboto', sans-serif;
+    color:#CCC;
+
+	background-color: #333;
+    font-size:90%;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top: 1px solid #888;
+
+}
+.sidenav-item:hover{
+    color:white;
+
+}
+.chart-nav{
+    font-family: 'Roboto', sans-serif;
+}
+.main {
+	border-left: 200px solid #111;
+	/* Same as the width of the sidenav */
+	/* Increased text to enable scrolling */
+	padding-top: 60px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.form-panel {
+    background: rgb(244,244,244);
+    background: linear-gradient(180deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 50px;
+	border-radius: 0px;
+	width: 500px;
+}
+.text-blue{
+    color: #106cf4;
+}
+
+.text-green{
+    color: #208454;
+}
+
+.text-yellow{
+    color: #f8bc04;
+}
+
+.text-red{
+    color: #e03444;
+}
+.text-grey{
+    color: #70747c;
+}
+.font-40{
+font-size: 40%;
+}
+.font-50{
+	font-size: 50%;
+}
+.font-60{
+	font-size: 60%;
+}
+
+.font-70{
+	font-size: 70%;
+}
+.font-80{
+	font-size: 80%;
+}
+.font-100{
+	font-size: 100%;
+}
+.font-120{
+	font-size: 120%;
+}
+.font-140{
+	font-size: 140%;
+}
+
+.table th {
+	text-align: center;
+}
+
+.table td {
+	text-align: center;
+}
+
+.message {
+	background-color: rgba(128, 205, 168, 0.55);
+	color: rgba(52, 52, 52, 0.89);
+	width: max-content;
+	padding: 7px 20px;
+	text-align: center;
+	border-radius: 8px;
+	transition: opacity 1s;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
